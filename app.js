@@ -17,6 +17,6 @@ boxTl.from('.hi', {duration:2, y:"17vw", ease: "power3.out"})
   .to('.box', {duration:2, autoAlpha:0.5, yoyo: true, repeat: -1, ease:"rough({ template: none.out, strength:  1, points: 20, taper: 'none', randomize: true, clamp: false})"})
 words.forEach(word => {
   let tl = gsap.timeline({repeat: 1, yoyo: true, repeatDelay:1})
-  tl.to('.text', {duration: 1.2, text: word})
+  tl.to('.animatedText', {duration: 1.2, text: word})
   masterTl.add(tl)
 })

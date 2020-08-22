@@ -363,7 +363,7 @@ a {
   /* flex-wrap: wrap; */
 }
 
-.headerH1 > .text {
+.headerH1 > .animatedText {
   display: inline-block;
   font-family: 'Arial', sans-serif;
   color: rgba(255, 255, 255, 0.7) !important;
