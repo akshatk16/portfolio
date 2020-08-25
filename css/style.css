@@ -560,6 +560,18 @@ a {
       -o-transition: none;
       transition: none; } }
 
+
+.section-resume .col-md-6 h2 {
+  color: #ffffffad;
+  font-weight: bold;
+  cursor: default;
+} 
+.section-resume .resume-item h3:hover {
+  color:rgb(201, 157, 197);
+  letter-spacing: 1.25px;
+
+}
+
 .resume-item {
   padding: 30px;
   background: #333;
@@ -578,12 +590,16 @@ a {
     display: block;
     font-size: 16px; }
   .resume-item h3 {
-    color: #c45a94;
+    cursor: default;
+    color: #ffffffad;
     font-size: 20px; }
+
   .resume-item .school {
     color: rgba(255, 255, 255, 0.3); }
   .resume-item *:last-child {
     margin-bottom: 0; }
+.tech-icon {
+  font-size:16px;}
 
 .blog-entry {
   -webkit-transition: .3s all ease;
