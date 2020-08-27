@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5 {
 h2 {
   font-size: 25px; }
 
+
 a {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -209,7 +210,8 @@ a {
 .section-heading {
   margin-bottom: 30px;
   position: relative;
-  z-index: 10; }
+  z-index: 10; 
+  cursor: default;}
   .section-heading h2 {
     position: relative;
     font-weight: 200;
@@ -252,7 +254,9 @@ a {
   .site-service-item h3 {
     font-size: 20px;
     font-weight: 200; }
-
+#section-about, #section-contact{
+  cursor: default;
+}
 .site-link {
   position: relative; }
   .site-link i {
@@ -374,11 +378,15 @@ a {
   .single-portfolio .p-inner {
     text-align: center; }
     .single-portfolio .p-inner h4 {
-      font-size: 20px; }
+      font-size: 20px; 
+  cursor: default;}
+
     .single-portfolio .p-inner .cat {
       font-size: 12px;
       text-transform: uppercase;
-      color: #cccccc; }
+      color: #cccccc; 
+  cursor: default;}
+
 
 
 .headerH1 {
@@ -477,8 +485,8 @@ a {
   color: #c45a94; }
 
 .portfolio-area .filters-content {
-  margin-top: 50px; }
-
+  margin-top: 50px; 
+}
 .portfolio-area .filters-content .show {
   opacity: 1;
   visibility: visible;
@@ -503,7 +511,8 @@ a {
 
 .portfolio-area .filters-content .p-inner {
   padding: 20px 0px;
-  text-align: center; }
+  text-align: center; 
+}
 
 .portfolio-area .filters-content .item .p-inner .cat {
   font-size: 13px; }
@@ -694,7 +703,8 @@ a {
     width:50%; */
   } 
     .site-footer {
-  padding: 3em 0; }
+  padding: 3em 0; 
+  cursor:default;}
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer .social-item {
